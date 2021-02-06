@@ -1,0 +1,106 @@
+/*global properties*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*body tag*/
+body{
+	background: #15202b;
+}
+
+/*logo and text-under-logo color*/
+.text-under-logo, 
+.first-logo{
+	color: #fff;
+}
+
+/*logo positioning*/
+.first-logo{
+ 	padding: 2rem;
+ 	transform: translateX(650px);
+}
+
+/*text under logo positioning*/
+.text-under-logo{
+	font-family: arial;
+	margin-top: .2rem;
+	margin-left: 44%;
+  }
+ 
+ /*text in the input fixing*/
+ .text-of-email-input,
+ .text-of-password-input{
+ 	color: #8899a6;
+ 	font-family: roboto;
+  }
+
+/*input backgrounds*/
+ .email-input,
+ .password-input {
+    margin-top: 2rem;
+ 	background: #192734;
+ 	margin-left: 30%;
+ 	padding: 1rem;
+ 	border-bottom: 2px solid #8899a6;
+ 	width: 530px;
+ 	color: #fff;
+   }
+
+/*transparenting inputs*/
+  input{
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  width: 530px;
+  margin-left: -15px;
+  }
+  /*Log in button*/
+  .login-button{
+  margin-left: 30%;
+  margin-top: 2rem;
+  width: 520px;
+  padding: 1rem;
+  border-radius: 60px;
+  background:  #1da1f2;
+  opacity: .9;
+  border: none;
+  color: #fff;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+  } 
+ 
+
+ /*nav*/
+
+ nav{
+ 	margin-left: 37%;
+ 	margin-top: 10px;
+ }
+
+ /*A tags*/
+
+ a{
+ 	color: #1b95e0;
+ 	text-decoration: none;
+  font-family: roboto;
+  margin-right: 20px;
+  }
+
+  /*dot span*/
+
+  span{
+  color: white;
+  opacity: .9;
+  margin-left: -20px;
+  }
+
+a:hover{
+	text-decoration: underline;
+}
+
+ 
