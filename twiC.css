@@ -48,6 +48,12 @@ body{
  	color: #fff;
    }
 
+.email-input:focus,
+ .password-input:focus {
+	 border: none;
+	 outline: none;
+}
+
 /*transparenting inputs*/
   input{
   background: transparent;
